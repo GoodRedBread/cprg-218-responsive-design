@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    color: lightgray;
+}
+
+
+@media screen and (max-width: 425px){
+    body{
+        background-color: red;
+    }
+}
